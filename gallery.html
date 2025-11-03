@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery List | Gallery Pet</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-logo">
+      <img src="assets/logo/logo.png" alt="Logo">
+      <h1>Gallery<span>Pet</span></h1>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="#">About</a>
+    </nav>
+
+    <div id="menuBtn" class="menu-btn">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <section class="gallery-section">
+    <h2>🐾 Pet Gallery</h2>
+    <p>Temukan berbagai hewan peliharaan lucu dan unik dari seluruh dunia!</p>
+
+    <div class="filter-controls">
+        <div class="filter-group">
+            <label for="filterJenis">Jenis Hewan:</label>
+            <select id="filterJenis">
+                <option value="all">Semua Jenis</option>
+                </select>
+        </div>
+    </div>
+
+    <div class="gallery-container" id="galleryContainer">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span>Gallery Pet</span> By. Riuzyy</p>
+  </footer>
+
+  <script src="js/variables.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script> 
+</body>
+</html>
