@@ -5,7 +5,7 @@ const pet = [
     jenis_hewan: "Kucing",
     asal: "Turki",
     karakter: "Elegan, cerdas, suka berinteraksi",
-    image: "assets/img/luna_anggora.jpg",
+    image: "assets/pets/anggora_putih.avif",
     deskripsi: `
       Anggora adalah ras kucing yang anggun, dikenal dengan bulu panjangnya yang indah. 
       Mereka memiliki sifat cerdas dan biasanya sangat terikat dengan pemiliknya.
@@ -17,7 +17,7 @@ const pet = [
     jenis_hewan: "Anjing",
     asal: "Skotlandia",
     karakter: "Ramah, sabar, setia pada keluarga",
-    image: "assets/img/max_golden.jpg",
+    image: "assets/pets/golden_retriever.avif",
     deskripsi: `
       Golden Retriever adalah ras anjing yang sangat populer karena sifatnya yang ramah, 
       mudah dilatih, dan sangat cocok sebagai hewan peliharaan keluarga.
@@ -29,7 +29,7 @@ const pet = [
     jenis_hewan: "Burung",
     asal: "Indonesia",
     karakter: "Lincah, rajin berkicau, mudah beradaptasi",
-    image: "assets/img/sunny_kenari.jpg",
+    image: "assets/pets/kenari.jpg",
     deskripsi: `
       Kenari Lokal memiliki suara merdu dan ketahanan yang baik terhadap iklim tropis. 
       Mereka merupakan pilihan ideal bagi pemula dalam memelihara burung.
