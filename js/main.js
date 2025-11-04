@@ -14,7 +14,6 @@ function goDetail(id) {
   window.location.href = `detail.html?id=${id}`;
 }
 
-// Bagian navigasi tetap sama
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.querySelector(".nav-links");
 
