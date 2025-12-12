@@ -1,0 +1,10 @@
+# Konfigurasi Editor / IDE
+.vscode/
+.idea/
+
+# Dependensi & Cache
+node_modules/
+vendor/
+
+# Log file
+*.log
