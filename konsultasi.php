@@ -1,6 +1,6 @@
 <?php $pageTitle = "Mulai Konsultasi"; include 'inc/header.php'; ?>
 
-<section class="py-20 bg-gray-100">
+<section class="py-32 bg-gray-100">
     <div class="w-full mx-auto px-6">
 
         <div class="text-center mb-12">
@@ -25,7 +25,7 @@
                 </div>
 
                 <a href="adopsi/pertanyaan.php" 
-                   class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105 inline-block">
+                   class="px-8 py-3 wix2-cta-button text-xl">
                     Mulai Tes Adopsi
                 </a>
             </div>
@@ -42,8 +42,8 @@
                     </p>
                 </div>
 
-                <a href="diagnosa/diagnosa.php" 
-                   class="px-8 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition duration-300 transform hover:scale-105 inline-block">
+                <a href="diagnosa/pilih_gejala.php" 
+                   class="px-8 py-3 wix2-cta-button text-xl">
                     Mulai Diagnosis
                 </a>
             </div>

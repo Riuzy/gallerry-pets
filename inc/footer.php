@@ -6,7 +6,7 @@
             <div>
                 <div class="flex items-center space-x-3 mb-3">
                     <img src="<?= $project_root ?>/assets/logo/logo.png" alt="Logo" class="w-8 h-8 rounded-full">
-                    <h5 class="text-xl font-bold">Gallery<span class="text-blue-400">Pet</span></h5>
+                    <h5 class="text-xl font-bold">Pets<span class="text-blue-400">Wiki</span></h5>
                 </div>
                 <p class="text-gray-400 text-sm max-w-xs">
                     Platform sistem pakar yang membantu Anda menemukan hewan peliharaan ideal dan mendiagnosa penyakit.
@@ -30,8 +30,7 @@
             <div>
                 <h6 class="text-lg font-semibold text-white mb-3">Perusahaan</h6>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#" class="text-gray-400 hover:text-white">Tentang Kami</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white">Karir</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
                     <li><a href="<?= $project_root ?>/admin/index.php" class="text-gray-400 hover:text-white">Akses Admin</a></li>
                 </ul>
             </div>
@@ -47,11 +46,7 @@
         </div>
 
         <div class="mt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-            <p>&copy; 2025 Gallery Pet. All rights reserved.</p>
-            <div class="md:space-x-4 mt-3 md:mt-0">
-                <a href="#" class="hover:text-white">Privacy Policy</a>
-                <a href="#" class="hover:text-white">Terms</a>
-            </div>
+            <p>&copy; 2025 PetsWiki. All rights reserved.</p>
         </div>
     </div>
 </footer>
